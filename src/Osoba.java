@@ -37,7 +37,7 @@ public abstract class Osoba {
         this.bitrhdate = bitrhdate;
     }
 
-    public String toString(){
-        return "Imię: " + getName() + ", nazwisko: " + getSecond_name() + ", urodziny: " + getBitrhdate();
+    public String toString() {
+        return null;
     }
 }
