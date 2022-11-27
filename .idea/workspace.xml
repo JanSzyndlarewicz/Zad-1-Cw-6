@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f11be3ae-944c-4621-bacf-765547e6ff8e" name="Changes" comment="Pracownik toString">
-      <change afterPath="$PROJECT_DIR$/src/Klient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pracownik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pracownik.java" afterDir="false" />
+    <list default="true" id="f11be3ae-944c-4621-bacf-765547e6ff8e" name="Changes" comment="Abstract Klient">
+      <change afterPath="$PROJECT_DIR$/src/Firma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669505467693</updated>
-      <workItem from="1669505469440" duration="1850000" />
+      <workItem from="1669505469440" duration="3715000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1669505549552</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669507056367</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Abstract Klient">
+      <created>1669507918874</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669507918874</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +114,7 @@
     <MESSAGE value="Abstract osoba set/get" />
     <MESSAGE value="Zadanie set/get" />
     <MESSAGE value="Pracownik toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pracownik toString" />
+    <MESSAGE value="Abstract Klient" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract Klient" />
   </component>
 </project>
