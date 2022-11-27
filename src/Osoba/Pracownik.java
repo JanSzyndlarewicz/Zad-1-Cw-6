@@ -53,7 +53,7 @@ public class Pracownik extends Osoba {
 
     @Override
     public String toString() {
-        return "Osoba.Osoba.Pracownik{" +
+        return "Pracownik {" +
                 "name='" + getName() + '\'' +
                 ", second_name='" + getSecond_name() + '\'' +
                 ", bitrhdate='" + getBitrhdate() + '\'' +

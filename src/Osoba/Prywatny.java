@@ -37,7 +37,7 @@ public class Prywatny extends Klient{
 
     @Override
     public String toString() {
-        return "Prywatny{" +
+        return "Prywatny {" +
                 "name='" + getName() + '\'' +
                 ", second_name='" + getSecond_name() + '\'' +
                 ", bitrhdate='" + getBitrhdate() + '\'' +

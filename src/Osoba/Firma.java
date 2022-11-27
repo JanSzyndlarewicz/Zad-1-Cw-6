@@ -57,7 +57,7 @@ public class Firma extends Klient {
 
     @Override
     public String toString() {
-        return "Osoba.Osoba.Firma{" +
+        return "Firma {" +
                 "name='" + getName() + '\'' +
                 ", second_name='" + getSecond_name() + '\'' +
                 ", bitrhdate='" + getBitrhdate() + '\'' +
