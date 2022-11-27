@@ -1,3 +1,5 @@
+package Zadanie;
+
 public class Zadanie {
     private int priorytet, budget;
     private String opis, deadline;
@@ -56,7 +58,7 @@ public class Zadanie {
 
     @Override
     public String toString() {
-        return "Zadanie{" +
+        return "Zadanie.Zadanie{" +
                 "priorytet=" + priorytet +
                 ", budget=" + budget +
                 ", opis='" + opis + '\'' +

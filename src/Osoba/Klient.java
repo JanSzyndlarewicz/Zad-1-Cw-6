@@ -1,4 +1,6 @@
-public abstract class Klient extends Osoba{
+package Osoba;
+
+public abstract class Klient extends Osoba {
     private String start_umowy, rodzaj_umowy, id_klienta;
     private int cena;
 
@@ -51,23 +53,8 @@ public abstract class Klient extends Osoba{
     }
 
     @Override
-    public String getName() {
-        return super.getName();
-    }
-
-    @Override
-    public String getSecond_name() {
-        return super.getSecond_name();
-    }
-
-    @Override
-    public String getBitrhdate() {
-        return super.getBitrhdate();
-    }
-
-    @Override
     public String toString() {
-        return "Klient{" +
+        return "Osoba.Osoba.Klient{" +
                 "name='" + getName() + '\'' +
                 ", second_name='" + getSecond_name() + '\'' +
                 ", bitrhdate='" + getBitrhdate() + '\'' +

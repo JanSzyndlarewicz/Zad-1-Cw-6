@@ -1,4 +1,6 @@
-public class Firma extends Klient{
+package Osoba;
+
+public class Firma extends Klient {
     String nip, beniefity;
     int ilosc_obslugiwanych_osob, znizka_procent;
 
@@ -51,39 +53,10 @@ public class Firma extends Klient{
         this.znizka_procent = znizka_procent;
     }
 
-    @Override
-    public String getStart_umowy() {
-        return super.getStart_umowy();
-    }
-
-    @Override
-    public String getRodzaj_umowy() {
-        return super.getRodzaj_umowy();
-    }
-
-    @Override
-    public String getId_klienta() {
-        return super.getId_klienta();
-    }
-
-    @Override
-    public int getCena() {
-        return super.getCena();
-    }
-
-    @Override
-    public String getName() {
-        return super.getName();
-    }
-
-    @Override
-    public String getBitrhdate() {
-        return super.getBitrhdate();
-    }
 
     @Override
     public String toString() {
-        return "Firma{" +
+        return "Osoba.Osoba.Firma{" +
                 "name='" + getName() + '\'' +
                 ", second_name='" + getSecond_name() + '\'' +
                 ", bitrhdate='" + getBitrhdate() + '\'' +

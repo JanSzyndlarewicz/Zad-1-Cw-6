@@ -1,3 +1,5 @@
+package Osoba;
+
 public abstract class Osoba {
     private String name, second_name, bitrhdate;
 
@@ -39,7 +41,7 @@ public abstract class Osoba {
 
     @Override
     public String toString() {
-        return "Osoba{" +
+        return "Osoba.Osoba{" +
                 "name='" + name + '\'' +
                 ", second_name='" + second_name + '\'' +
                 ", bitrhdate='" + bitrhdate + '\'' +

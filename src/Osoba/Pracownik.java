@@ -1,6 +1,10 @@
+package Osoba;
+
+import Zadanie.Zadanie;
+
 import java.util.Arrays;
 
-public class Pracownik extends Osoba{
+public class Pracownik extends Osoba {
     private String stanowisko;
     private Zadanie[] task;
 
@@ -49,7 +53,7 @@ public class Pracownik extends Osoba{
 
     @Override
     public String toString() {
-        return "Pracownik{" +
+        return "Osoba.Osoba.Pracownik{" +
                 "name='" + getName() + '\'' +
                 ", second_name='" + getSecond_name() + '\'' +
                 ", bitrhdate='" + getBitrhdate() + '\'' +
