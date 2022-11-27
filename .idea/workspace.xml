@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f11be3ae-944c-4621-bacf-765547e6ff8e" name="Changes" comment="Abstract osoba set/get">
-      <change afterPath="$PROJECT_DIR$/src/Pracownik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zadanie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f11be3ae-944c-4621-bacf-765547e6ff8e" name="Changes" comment="Pracownik toString">
+      <change afterPath="$PROJECT_DIR$/src/Klient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pracownik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pracownik.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669505467693</updated>
-      <workItem from="1669505469440" duration="1135000" />
+      <workItem from="1669505469440" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1669505549552</created>
@@ -71,7 +70,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669506002723</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Zadanie set/get">
+      <created>1669506649461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669506649461</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Pracownik toString">
+      <created>1669507056367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669507056367</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +105,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Abstract osoba set/get" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract osoba set/get" />
+    <MESSAGE value="Zadanie set/get" />
+    <MESSAGE value="Pracownik toString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pracownik toString" />
   </component>
 </project>

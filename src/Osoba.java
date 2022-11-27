@@ -37,7 +37,12 @@ public abstract class Osoba {
         this.bitrhdate = bitrhdate;
     }
 
+    @Override
     public String toString() {
-        return null;
+        return "Osoba{" +
+                "name='" + name + '\'' +
+                ", second_name='" + second_name + '\'' +
+                ", bitrhdate='" + bitrhdate + '\'' +
+                '}';
     }
 }

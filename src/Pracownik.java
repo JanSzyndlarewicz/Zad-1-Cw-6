@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Pracownik extends Osoba{
     private String stanowisko;
     private Zadanie[] task;
@@ -30,12 +32,29 @@ public class Pracownik extends Osoba{
         this.task = task;
     }
 
-   public String toString(){
-        String tmp = "";
-        for(int i=0; i< task.length; i++){
-            tmp += task[i].toString() + "; "
-        }
+    @Override
+    public String getName() {
+        return super.getName();
+    }
 
-       return "Imię: " + getName() + ", nazwisko: " + getSecond_name() + ", urodziny: " + getBitrhdate() + ", stanowisko: " + getStanowisko() + ", zadania: " + tmp;
-   }
+    @Override
+    public String getSecond_name() {
+        return super.getSecond_name();
+    }
+
+    @Override
+    public String getBitrhdate() {
+        return super.getBitrhdate();
+    }
+
+    @Override
+    public String toString() {
+        return "Pracownik{" +
+                "name='" + getName() + '\'' +
+                ", second_name='" + getSecond_name() + '\'' +
+                ", bitrhdate='" + getBitrhdate() + '\'' +
+                "stanowisko='" + stanowisko + '\'' +
+                ", task=" + Arrays.toString(task) +
+                '}';
+    }
 }

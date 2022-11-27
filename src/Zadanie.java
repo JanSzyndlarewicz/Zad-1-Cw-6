@@ -54,7 +54,13 @@ public class Zadanie {
         this.deadline = deadline;
     }
 
-    public String toString(){
-        return "Zadanie: " + getOpis() + ", priorytet: " + getPriorytet() + ", deadline: " + getDeadline() + ", budżet: " + getBudget();
+    @Override
+    public String toString() {
+        return "Zadanie{" +
+                "priorytet=" + priorytet +
+                ", budget=" + budget +
+                ", opis='" + opis + '\'' +
+                ", deadline='" + deadline + '\'' +
+                '}';
     }
 }
