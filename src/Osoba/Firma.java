@@ -54,6 +54,7 @@ public class Firma extends Klient {
     }
 
 
+
     @Override
     public String toString() {
         return "Osoba.Osoba.Firma{" +
